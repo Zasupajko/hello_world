@@ -28,14 +28,15 @@ class MyHomePage extends StatelessWidget {
         title: const Center(child: Text('First Project')),
       ),
       body: const Center(
-          child: Text(
-        'Hello World',
-        style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
-          fontSize: 25,
+        child: Text(
+          'Hello World',
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+            fontSize: 25,
+          ),
         ),
-      )),
+      ),
     );
   }
 }
